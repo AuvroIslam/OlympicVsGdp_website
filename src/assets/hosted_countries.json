@@ -1,0 +1,44 @@
+[
+    {
+        "country": "Australia",
+        "host_place": "Sydney",
+        "economic_situation": "In 2000, Australia had a robust economy with strong growth, low inflation, and low unemployment. The country benefited from a stable economic environment, which helped in successfully hosting the Olympics.",
+        "olympic_performance": "At the Sydney 2000 Olympics, Australia had a remarkable performance, finishing fourth in the medal tally with a total of 58 medals, including 16 gold. The Games were seen as a celebration of national pride and sporting excellence."
+    },
+    {
+        "country": "Greece",
+        "host_place": "Athens",
+        "economic_situation": "Leading up to 2004, Greece experienced economic growth and increased public spending, partly due to preparations for the Olympics. However, this also contributed to rising public debt, which later became a significant issue.",
+        "olympic_performance": "During the Athens 2004 Olympics, Greece had a strong showing, winning 16 medals and finishing 18th in the medal standings. The Games were marked by the pride of hosting, but they also faced logistical issues."
+    },
+    {
+        "country": "China",
+        "host_place": "Beijing",
+        "economic_situation": "In 2008, China was experiencing rapid economic growth, driven by industrialization and exports. The country invested heavily in infrastructure for the Olympics, showcasing its economic strength and global ambitions.",
+        "olympic_performance": "At the Beijing 2008 Olympics, China dominated the medal tally, finishing first with 100 medals, including 48 gold. The Games were a showcase of China's emergence as a global superpower."
+    },
+    {
+        "country": "United Kingdom",
+        "host_place": "London",
+        "economic_situation": "The UK was recovering from the global financial crisis of 2008-2009. By 2012, the economy was stabilizing, and the Olympics were seen as a boost to tourism and infrastructure development.",
+        "olympic_performance": "During the London 2012 Olympics, Team GB achieved its best performance since 1908, finishing third in the medal table with 65 medals, including 29 gold. The Games were celebrated for their organization and legacy."
+    },
+    {
+        "country": "Brazil",
+        "host_place": "Rio de Janeiro",
+        "economic_situation": "Brazil faced economic challenges in 2016, including a recession, high inflation, and unemployment. The economic downturn affected public perception and funding for the Olympics.",
+        "olympic_performance": "At the Rio 2016 Olympics, Brazil finished 13th in the medal tally with 19 medals, including 7 gold. The Games were marked by concerns over infrastructure and security but also celebrated notable Brazilian achievements."
+    },
+    {
+        "country": "Japan",
+        "host_place": "Tokyo",
+        "economic_situation": " Japan maintained a stable economy with low unemployment, though challenges from an aging population and the pandemic impacted growth. The Olympics were seen as a potential economic stimulus.",
+        "olympic_performance": "During the Tokyo 2020 Olympics (held in 2021), Japan finished third in the medal count with 58 medals, including 27 gold. The Games were unique due to pandemic restrictions but showcased Japan's resilience and sporting talent."
+    },
+    {
+        "country": "France",
+        "host_place": "Paris",
+        "economic_situation": "As of the lead-up to 2024, France is focusing on economic recovery post-pandemic, with efforts to boost tourism and innovation. The Olympics are seen as an opportunity to enhance economic growth and sustainability.",
+        "olympic_performance": "The Paris 2024 Olympics are highly anticipated, and France is focusing on sustainability and innovation to enhance its Olympic legacy. The country aims to excel in various sports and improve its previous medal performances."
+    }
+]

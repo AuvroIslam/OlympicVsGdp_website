@@ -1,0 +1,5 @@
+.modal-box {
+    max-height: 600px ;
+    max-width: 900px; /* Ensures the modal takes full available space */
+    overflow: hidden ; /* Prevents scrolling */
+  }
