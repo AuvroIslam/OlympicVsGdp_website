@@ -1,18 +1,28 @@
-
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import TableauEmbed from '../Tableau/TableauEmbed';
 
 const HostCountry = ({hostedCountry}) => {
     const {country, host_place, economic_situation, olympic_performance} = hostedCountry;
+    const [imageSrc, setImageSrc] = useState('');
+
+    useEffect(() => {
+        // Dynamic import of image
+        const imageUrl = new URL(`../../assets/${country}.jpg`, import.meta.url).href;
+        setImageSrc(imageUrl);
+    }, [country]);
+
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-sm h-[500px]">
-  <figure className='my-0 mt-4 h-[200px]'>
-    <img className="rounded-xl w-6/7 mx-auto h-full"
-      src={`/src/assets/${country}.jpg`}
-      alt={host_place} />
-  </figure>
-  <div className="card-body">
+                <figure className='my-0 mt-4 h-[200px]'>
+                    <img 
+                        className="rounded-xl w-6/7 mx-auto h-full"
+                        src={imageSrc}
+                        alt={host_place} 
+                    />
+                </figure>
+                <div className="card-body">
     <h2 className="card-title">{`${host_place}-Olympics`}</h2>
     <p>{economic_situation}</p>
     <div className="card-actions justify-end">

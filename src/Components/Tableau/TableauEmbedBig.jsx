@@ -30,16 +30,17 @@ const TableauEmbedBig = ({Dashboard}) => {
 
   return (
     <div
-      className='tableauPlaceholder border-[#D98324] border-2 rounded-xl m-2'
-      id='viz1740349661735'
-      style={{ 
-        position: 'relative', 
-        width: '100%',
-        height: '600px',
-        maxHeight: '600px',
-        overflow: 'hidden'
-      }}
-    >
+    className='tableauPlaceholder border-[#D98324] border-2 rounded-xl m-2 w-full'
+    id='viz1740349661735'
+    style={{ 
+      position: 'relative', 
+      width: '100%',
+      height: '600px',
+      maxHeight: '600px',
+      overflow: 'hidden',
+      display: 'block'
+    }}
+  >
       <noscript>
         <a href='#'>
           <img 

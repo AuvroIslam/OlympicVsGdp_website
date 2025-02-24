@@ -1,18 +1,14 @@
-import  { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import HostCountry from '../HostCountry/HostCountry';
-
+import hostedCountriesData from '../../assets/hosted_countries.json';
 
 const HostedCountries = () => {
     const [hostedCountries, setHostedCountries] = useState([]);
+    
     useEffect(() => {
-        const fetchHostedCountries = async () => {
-            const response = await fetch('/src/assets/hosted_countries.json');
-            const data = await response.json();
-            setHostedCountries(data);
-        };
-        fetchHostedCountries();
-       
+        setHostedCountries(hostedCountriesData);
     }, []);
+
     return (
         <div className='grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
             {
