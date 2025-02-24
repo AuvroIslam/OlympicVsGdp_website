@@ -44,7 +44,7 @@ const TableauEmbedBig = ({Dashboard}) => {
       <noscript>
         <a href='#'>
           <img 
-            alt='Dashboard 2'
+            alt='missing Dashboard'
             src={`https://public.tableau.com/static/images/${Dashboard}/1_rss.png`}
             style={{ border: 'none', width: '100%', height: 'auto' }}
           />
