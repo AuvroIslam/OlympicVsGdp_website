@@ -13,9 +13,9 @@ It showcases the dashboards and visualizations created in that project inside a 
 
 Screenshots of the website 
 <p float="left">
-  <img src="Preview/ss1.jpg" width="200" />
-  <img src="Preview/ss2.jpg" width="200" />
-  <img src="Preview/ss3.jpg" width="200" />
+  <img src="Preview/ss1.png" width="300" />
+  <img src="Preview/ss2.png" width="300" />
+  <img src="Preview/ss3.png" width="300" />
 </p>
 
 ---
