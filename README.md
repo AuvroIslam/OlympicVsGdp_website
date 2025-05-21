@@ -38,3 +38,11 @@ git clone https://github.com/AuvroIslam/OlympicVsGdp_website.git
 cd OlympicVsGdp_website
 npm install
 npm run dev
+
+
+## Contact for More Details
+
+- 📧 Email: [oitijya2002@gmail.com](mailto:oitijya2002@gmail.com)  
+- 🔗 LinkedIn: [Oitijya Islam Auvro](https://linkedin.com/in/oitijya-islam-auvro-a252a5325)  
+- 💻 GitHub: [AuvroIslam](https://github.com/AuvroIslam)  
+
