@@ -39,7 +39,7 @@ cd OlympicVsGdp_website
 npm install
 npm run dev
 
-
+```
 ## Contact for More Details
 
 - 📧 Email: [oitijya2002@gmail.com](mailto:oitijya2002@gmail.com)  
